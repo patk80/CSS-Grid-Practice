@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     border: 5px solid purple;
+    background-color: tomato;
     height: 100vh;
     justify-items: center;
     align-items: center;
@@ -21,6 +22,7 @@ img {
 @media only screen and (max-width: 611px) {
     .wrapper {
         grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 5px;
     }
 
     img {
@@ -28,7 +30,6 @@ img {
         height: 250px;
     }
 }
-
 
 @media only screen and (max-width: 527px) {
     .wrapper {
